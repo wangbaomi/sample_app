@@ -1,0 +1,9 @@
+--- 
+cursor_positions: 
+  - :path: Gemfile
+    :cursor_offset: 202
+    :timestamp: 2012-06-07 10:06:16 +08:00
+  - :path: public/index.html
+    :cursor_offset: 5811
+    :timestamp: 2012-06-07 10:06:16 +08:00
+files_to_retain: 0
