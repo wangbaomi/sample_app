@@ -1,18 +1,20 @@
-1339933122
+1339987178
 Application	/home/ruby/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/ruby/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/ruby/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+GET 'about'	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'about'" do
 GET 'contact'	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'contact'" do
 GET 'home'	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'home'" do
 PagesController	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	/home/ruby/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/home/ruby/rails_projects/sample_app/config/application.rb	module SampleApp
-concats two strings with spaces	/home/ruby/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb	it "concats two strings with spaces" do
+about	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 contact	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 home	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
-pages/contact.html.erb	/home/ruby/rails_projects/sample_app/spec/views/pages/contact.html.erb_spec.rb	describe "pages/contact.html.erb" do
-pages/home.html.erb	/home/ruby/rails_projects/sample_app/spec/views/pages/home.html.erb_spec.rb	describe "pages/home.html.erb" do
 should be successful	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
 should be successful	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
-string concat	/home/ruby/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb	describe "string concat" do
+should be successful	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
+should have the right title	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+should have the right title	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+should have the right title	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 title	/home/ruby/rails_projects/sample_app/app/helpers/application_helper.rb	  def title
