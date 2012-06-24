@@ -1,4 +1,4 @@
-1340500493
+1340524387
 Application	/home/ruby/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/ruby/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/ruby/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -8,9 +8,14 @@ GET 'home'	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controlle
 PagesController	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	/home/ruby/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/home/ruby/rails_projects/sample_app/config/application.rb	module SampleApp
+User	/home/ruby/rails_projects/sample_app/user.rb	class User
 about	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 contact	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
+email	/home/ruby/rails_projects/sample_app/user.rb	  attr_accessor :name, :email
+formatted_email	/home/ruby/rails_projects/sample_app/user.rb	  def formatted_email
 home	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
+initialize	/home/ruby/rails_projects/sample_app/user.rb	  def initialize(attributes = {})
+name	/home/ruby/rails_projects/sample_app/user.rb	  attr_accessor :name, :email
 should be successful	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
 should be successful	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
 should be successful	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
