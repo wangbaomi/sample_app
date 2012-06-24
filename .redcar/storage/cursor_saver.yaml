@@ -1,12 +1,54 @@
 --- 
 cursor_positions: 
-  - :path: Gemfile
-    :cursor_offset: 202
-    :timestamp: 2012-06-07 10:06:16 +08:00
+  - :path: public/hello.html
+    :cursor_offset: 73
+    :timestamp: 2012-06-15 09:09:04 +08:00
   - :path: public/index.html
-    :cursor_offset: 5811
+    :cursor_offset: 5054
     :timestamp: 2012-06-07 10:06:16 +08:00
-  - :path: app/views/layouts/application.html.erb
+  - :path: config/routes.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-18 10:40:43 +08:00
+  - :path: app/controllers/pages_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-18 10:40:43 +08:00
+  - :path: app/views/pages/home.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-06-18 10:40:43 +08:00
+  - :path: spec/controllers/pages_controller_spec.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-18 10:40:43 +08:00
+  - :path: Gemfile
+    :cursor_offset: 0
+    :timestamp: 2012-06-18 10:40:43 +08:00
+  - :path: spec/spec_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-18 10:40:43 +08:00
+  - :path: app/views/pages/contact.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-06-18 10:40:43 +08:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 80
+    :timestamp: 2012-06-07 10:06:16 +08:00
+  - :path: db/development.sqlite3
     :cursor_offset: 0
     :timestamp: 2012-06-07 10:06:16 +08:00
+  - :path: db/seeds.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-07 10:06:16 +08:00
+  - :path: script/rails
+    :cursor_offset: 0
+    :timestamp: 2012-06-07 10:06:16 +08:00
+  - :path: .gitignore
+    :cursor_offset: 430
+    :timestamp: 2012-06-07 10:06:16 +08:00
+  - :path: config/application.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-18 10:40:43 +08:00
+  - :path: app/views/pages/about.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-06-18 10:40:43 +08:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-06-18 10:40:43 +08:00
 files_to_retain: 0
