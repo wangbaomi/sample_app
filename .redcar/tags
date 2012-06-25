@@ -1,4 +1,4 @@
-1340589270
+1340593094
 Application	/home/ruby/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/ruby/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/ruby/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -6,23 +6,32 @@ GET 'about'	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controll
 GET 'contact'	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'contact'" do
 GET 'help'	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'help'" do
 GET 'home'	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'home'" do
+GET 'new'	/home/ruby/rails_projects/sample_app/spec/controllers/users_controller_spec.rb	describe "GET 'new'" do
 LayoutLinks	/home/ruby/rails_projects/sample_app/spec/requests/layout_links_spec.rb	describe "LayoutLinks" do
 PagesController	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	/home/ruby/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/home/ruby/rails_projects/sample_app/config/application.rb	module SampleApp
+UserHelper	/home/ruby/rails_projects/sample_app/app/helpers/user_helper.rb	module UserHelper
+UsersController	/home/ruby/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	/home/ruby/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 contact	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 help	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	/home/ruby/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
 logo	/home/ruby/rails_projects/sample_app/app/helpers/application_helper.rb	  def logo
+new	/home/ruby/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 should be successful	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
 should be successful	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
 should be successful	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
 should be successful	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
+should be successful	/home/ruby/rails_projects/sample_app/spec/controllers/users_controller_spec.rb	it "should be successful" do
 should hava a Home page at '/'	/home/ruby/rails_projects/sample_app/spec/requests/layout_links_spec.rb	it "should hava a Home page at '/'" do
+should hava the right title	/home/ruby/rails_projects/sample_app/spec/controllers/users_controller_spec.rb	it "should hava the right title" do
 should have  a About page at '/about'	/home/ruby/rails_projects/sample_app/spec/requests/layout_links_spec.rb	it "should have  a About page at '/about'" do
 should have  a Contact page at '/contact'	/home/ruby/rails_projects/sample_app/spec/requests/layout_links_spec.rb	it "should have  a Contact page at '/contact'" do
-should have  a Contact page at '/help'	/home/ruby/rails_projects/sample_app/spec/requests/layout_links_spec.rb	it "should have  a Contact page at '/help'" do
+should have  a Help page at '/help'	/home/ruby/rails_projects/sample_app/spec/requests/layout_links_spec.rb	it "should have  a Help page at '/help'" do
+should have  a Signup page at '/signup'	/home/ruby/rails_projects/sample_app/spec/requests/layout_links_spec.rb	it "should have  a Signup page at '/signup'" do
+should have the right links on the layout	/home/ruby/rails_projects/sample_app/spec/requests/layout_links_spec.rb	it "should have the right links on the layout" do
 should have the right title	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	/home/ruby/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
