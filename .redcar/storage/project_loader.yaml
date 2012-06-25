@@ -1,18 +1,4 @@
 --- 
 open_files: 
-  - public/index.html
-  - config/routes.rb
-  - app/controllers/pages_controller.rb
-  - app/views/pages/home.html.erb
   - spec/controllers/pages_controller_spec.rb
-  - Gemfile
-  - spec/spec_helper.rb
-  - app/views/pages/contact.html.erb
-  - app/controllers/application_controller.rb
-  - db/development.sqlite3
-  - db/seeds.rb
-  - script/rails
-  - .gitignore
-  - config/application.rb
-  - app/views/pages/about.html.erb
   - app/views/layouts/application.html.erb
